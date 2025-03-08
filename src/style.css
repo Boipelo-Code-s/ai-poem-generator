@@ -1,0 +1,71 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:#CCCCFF;
+
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+.instructions{
+    padding: 16px;
+    border: 1px solid rgba(39, 33, 66, 0.5);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: azure;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+form{
+    padding: 30px;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+.button{
+    margin-left: 10px;
+    background-color:#CCCCFF;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-size: 16px;
+    width: 150px;
+}
+
+.poem{
+    font-size: 16px;
+    background-color:#CCCCFF;
+    padding: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    border-left: 5px solid black; 
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+a{
+    color: #0818A8;
+}

@@ -7,21 +7,22 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>Welcome to the Ai Poem Generator</h1>
     </header>
     <main>
         <form>
-            <input
+            <input class="instructions"
               type="text"
               placeholder="Enter the topic of the poem"
               autofocus
               required
               autocompleted="off"
             />
-            <input type="submit" />
+            <input type="submit" class="button" />
         </form>
-        <div>
+        <div class="poem">
             <!--This is where the poem will go-->
             The fish are drifting calmly in their tank
             between the green reeds, lit by a white glow
@@ -31,5 +32,6 @@
     <footer>This Ai Project was coded by Boipelo Ngakane and is open-sourced on <a href="https://github.com/boipelo-codes/Ai-Poem-Generator" target="_blank">Github</a> and is hosted on <a href="ai-poem-generator-project-boipelo.netlify.app" target="_blank"> Netlify.</a>
     </footer>
     <script src="src/index.js"></script>
+</div>
 </body>
 </html>
