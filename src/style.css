@@ -71,3 +71,16 @@ footer{
 a{
     color: #0818A8;
 }
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
